@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Mukta Mahee", arial, sans-serif;
+   font-family: 'Inter', sans-serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.8;
@@ -28,9 +28,17 @@ a:hover {
   text-decoration: none;
 }
 
+:root {
+  --sand: #E7D8C9;
+  --coconut: #6B4F3B;
+  --olive: #6D7B5B;
+  --ocean: #527C88;
+  --cream: #FAF7F2;
+}
+
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair+Display", times, serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .container-fluid {
@@ -43,6 +51,12 @@ h1, h2, h3, h4, h5 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 50px;
+}
+
+.btn-primary {
+  background: var(--coconut);
+  border: none;
+  border-radius: 999px;
 }
 
 .btn.uppercase {
