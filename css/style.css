@@ -938,3 +938,56 @@ textarea.form-control {
   -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
 }
+
+.google-review-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.google-review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.google-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.rating {
+  font-size: 18px;
+  color: #f4b400;
+  font-weight: 600;
+}
+
+.rating span {
+  color: #333;
+  margin-left: 8px;
+}
+
+.review-text {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.review-count {
+  font-size: 14px;
+  color: #999;
+}
+
+.google-review-box .btn-primary {
+  background: #6B4F3B;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+}
+
+.google-review-box .btn-primary:hover {
+  background: #5a3f2d;
+}
